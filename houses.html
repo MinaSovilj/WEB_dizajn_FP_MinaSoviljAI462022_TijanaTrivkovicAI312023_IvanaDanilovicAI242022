@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+
+  
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Houses</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+  </head>
+
+  <body>
+    
+  <!-- Banner slika iznad navigacije -->
+  <div class="banner">
+    <img src="images/wallpaper.jpg" alt="Banner" class="img-fluid" >
+  </div>
+
+  <!-- Navigacija -->
+  
+ <nav class="navbar navbar-dark bg-dark shadow-sm sticky-top">
+  <div class="container d-flex justify-content-between align-items-center">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="images/star.png" width="50" alt="Logo">
+      <span class="tab text-white ms-2">Astrology home page</span>
+    </a>
+
+            <!-- Home page -->
+       <!--  <li class="nav-item text-white"><a class="nav-link" href="index.html">Home page</a></li> -->
+
+        <!-- Astrology Basics -->
+        <li class="nav-link dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="basicsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Astrology Basics
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="basicsDropdown">
+            <li><a class="dropdown-item " href="history.html">History of astrology</a></li>
+            <li><a class="dropdown-item" href="ZodiacWheel.html">The zodiac wheel</a></li>
+            <li><a class="dropdown-item" href="houses.html">The houses</a></li>
+          </ul>
+        </li>
+
+        <!-- Planets & Aspects -->
+        <li class="nav-link dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="planetsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Planets & Aspects
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="planetsDropdown">
+            <li><a class="dropdown-item" href="planets.html">Planets and their influence</a></li>
+            <li><a class="dropdown-item" href="aspects.html">Aspects</a></li>
+          </ul>
+        </li>
+
+        <!-- Horoscopes -->
+        <li class="nav-link dropdown text-white">
+          <a class="nav-link dropdown-toggle" href="#" id="horoscopesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Horoscopes
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="horoscopesDropdown">
+            <li><a class="dropdown-item" href="horoscopes.html">Horoscopes</a></li>
+            <li><a class="dropdown-item" href="compatibility.html">Compatibility</a></li>
+          </ul>
+        </li>
+            <li class="nav-link text-white"><a class="nav-link" href="gallery.html">Gallery</a></li>
+           <li class="nav-link text-white"><a class="nav-link" href="today.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+    <header class="bg-light section-pad">
+  <div class="container text-center">
+    <h1 class="display-5 fw-bold">The 12 Astrological Houses</h1>
+    <p class="lead">
+      The 12 astrological houses sit the form of a wheel. The zodiac wheel is based 
+      on the sun’s yearly rotation around the earth, and the houses are based on the 
+      earth’s 24-hour rotation on its axis. Sounds a little confusing, right? It can 
+      get a little tricky, so it’s easiest to think about astrology’s 12 houses as 
+      parts of a clock. Each of the 12 equally divided segments represent an area of 
+      life. The 1st house, for example, focuses on the self, and following houses 
+      continue to expand outward (moving counterclockwise on the wheel) to topics 
+      like family, love and career.
+    </p>
+
+    <img class="img-fluid rounded-3 shadow mt-3 w-50" src="images/12houses.png"  alt="Signs">
+  </div>
+</header>
+
+    <!-- Features (Bootstrap grid) -->
+   <section class="section-pad">
+  <div class="container">
+    <h2 class="mb-4 text-center">Houses in Astrology and What They Mean</h2>
+    <div class="row g-4">
+
+      <!-- House 1 -->
+      <div class="col-md-3">
+        <div class="card hoverable h-100">
+          <div class="card-body">
+            <h5 class="card-title">The First House of Identity and Self</h5>
+            <p class="card-text"> <br> The first house is known as the rising sign or ascendant and is considered to be the anchor of the astrological chart. It is the furthest left point of the essential horizon line and reveals which zodiac sign was rising from the eastern horizon at your time of birth.
+
+This sign is all about how perceive you. Let's say you are Gemini with a Scorpio rising, that means while you have the bubbly and chatty makings of a Gemini, you appear to be someone who's very focused to others. This would differ from a Gemini sun with a Pisces who may be perceived to be dreamier and more creative.
+The ascendant shows how you come across to others and how you define yourself. It also reveals the ruling planet of your birth chart. For example, if you have a Virgo rising, your ruling planet would be Mercury which makes you an overall analytical person. If you have a Cancer rising, your ruling planet would be the Moon, heightening your emotions.
+
+The first house is associated with the sign Aries and planet Mars.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- House 2 -->
+      <div class="col-md-3">
+        <div class="card hoverable h-100">
+          <div class="card-body">
+            <h5 class="card-title">The Second House of Money and Possessions</h5>
+            <p class="card-text">  <br> The second house represents one’s finances, the material realm, confidence and possessions. This house focuses on personal resources and self-esteem. It shows how, where, and why you find security in the things you do.
+
+Your second house can help you find ways to earn money and help you pinpoint the things that are worthy of your time and energy. Many astrologers also connect this house with childhood friends because they are the basis of camaraderie for the future.
+
+The second house is associated with the sign Taurus and planet Venus.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- House 3 -->
+      <div class="col-md-3">
+        <div class="card hoverable h-100">
+          <div class="card-body">
+            <h5 class="card-title">The Third House of Communication</h5>
+            <p class="card-text"> <br> The third house allows us to have insightful and meaningful communication with others. This house aids in how we express ourselves and receive information or news. It also allows us to bond and connect with siblings on a deeper level.
+
+Not only that, but it also describes our relationship with these individuals. Beyond that, the third house dictates your ties with the local community and early schooling — particularly the impact they both have on you.
+
+This house is associated with the sign Gemini and the planet Mercury.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- House 4 -->
+      <div class="col-md-3">
+        <div class="card hoverable h-100">
+          <div class="card-body">
+            <h5 class="card-title">The Fourth House of Home and Family</h5>
+            <p class="card-text"> <br> The fourth house is a sensitive point in the birth chart because it is the most intimate house, therefore, it is highly significant in how one feels about themselves and the world around them.
+
+The fourth house gives us an indication of our personal foundation. This includes family, heritage, tradition and home. Astrologers look to the fourth house to decipher how a person relates to the parental influences in their lives, nostalgia and sentimentality.
+
+The fourth house is associated with the sign Cancer and the Moon.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- House 5 -->
+      <div class="col-md-3">
+        <div class="card hoverable h-100">
+          <div class="card-body">
+            <h5 class="card-title">The Fifth House of Self-Expression and Romance</h5>
+            <p class="card-text"> <br> If you are looking to take a chance and invest in an endeavor, speculative sport or connect with your gifts, then look to the fifth house.
+
+This sector of the birth chart represents many different things, ranging from your inner talents to the types of entertainment you're into. It speaks to our creative side and informs where and how we find pleasure in our lives.
+
+This house is associated with the sign Leo and the Sun.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- House 6 -->
+      <div class="col-md-3">
+        <div class="card hoverable h-100">
+          <div class="card-body">
+            <h5 class="card-title">The Sixth House of Health and Daily Routines</h5>
+            <p class="card-text"> <br> The sixth house depicts our daily routine and the rituals that we choose to practice every day and can tell us the health issues or concerns that may be chronic, ongoing, or occur in our lifetime. It can also allow us to see how we can overcome those obstacles and get healthy by finding an activity that works best for us.
+
+The sixth house also helps us describe the relationship we have with our coworkers, employees and people who occupy our workspaces.
+
+The sixth house is associated with the sign Virgo and the planet Mercury.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- House 7 -->
+      <div class="col-md-3">
+        <div class="card hoverable h-100">
+          <div class="card-body">
+            <h5 class="card-title">The Seventh House of Partnerships and Relationships</h5>
+            <p class="card-text"> <br> The seventh house concentrates on interpersonal relationships, friendships, marriage, commitments and partnerships. It also focuses on contracts and agreements that we sign with others.
+
+The juxtaposing energy of this sector allows us to see who our open enemies are — (those who we are in public strife with and know we aren't fond of) — and how we relate to these people. But, we can also learn here how to make up and reconnect with those individuals.
+
+This house is associated with the sign Libra and the planet Venus.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- House 8 -->
+      <div class="col-md-3">
+        <div class="card hoverable h-100">
+          <div class="card-body">
+            <h5 class="card-title">The Eighth House of Personal Evolution and Transformation</h5>
+            <p class="card-text"> <br> The eighth house is about personal evolution, reproduction, taxes, and transformation. It is the "Rock & Roll" house of the birth chart because it relates to the edgier sentiments that are rarely shown to others.
+
+Astrologers often look here to see how one can pay off debt or taxes as well as how we overcome obstacles. Intuition, obsession, possession and emotions can run deep through this house.
+
+This house is associated with the sign Scorpio and the planets Mars and Pluto.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- House 9 -->
+      <div class="col-md-3">
+        <div class="card hoverable h-100">
+          <div class="card-body">
+            <h5 class="card-title">The Ninth House of Philosophy and Higher Learning</h5>
+            <p class="card-text"> <br> The ninth house in the birth chart allows you to embrace your personal philosophical beliefs by being mindful of the world around you and also gives you a chance to get out of your comfort zone by traveling to foreign places, tasting exotic flavors and embracing your spirituality.
+
+It evolves around higher education, like college, graduate school, medical school and beyond, while urging us to ignite our intelligence and understand our moral code.
+
+This house is associated with the sign Sagittarius and the planet Jupiter.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- House 10 -->
+      <div class="col-md-3">
+        <div class="card hoverable h-100">
+          <div class="card-body">
+            <h5 class="card-title">The Tenth House of Career and Public Image</h5>
+            <p class="card-text"> <br> The tenth house represents our social standing and what we put out there for others to see or judge. Our public image and our career are found here. What the tenth house shows us depends on what we want to do for a living. It showcases our professional calling and aspirations.
+
+This house is associated with the sign Capricorn and the planet Saturn. </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- House 11 -->
+      <div class="col-md-3">
+        <div class="card hoverable h-100">
+          <div class="card-body">
+            <h5 class="card-title">The Eleventh House of Hopes and Goals</h5>
+            <p class="card-text"> <br> The eleventh house gives you the chance to align with like-minded groups of people, community, social causes and to define your hopes, aspirations and goals for the future. This house is where you can see how society has grown, progressed and brought innovation.
+
+The eleventh house is associated with the sign Aquarius and the planets Saturn and Uranus. </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- House 12 -->
+      <div class="col-md-3">
+        <div class="card hoverable h-100">
+          <div class="card-body">
+            <h5 class="card-title">The Twelfth House of Secrets</h5>
+            <p class="card-text"> <br> The twelfth house focuses on matters we deal with behind the scenes and the secrets we never share. Our dreams and subconscious rule this area of the birth chart, giving us insight into how we handle our mental health, punishment and frenemies.
+
+This house is associated with the sign Pisces and the planets Jupiter and Neptune.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    
+
+    <!-- FOOTER -->
+<footer class="site-footer bg-dark text-white uniform-text">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mb-3 mb-md-0">
+        <p class="mb-1">&copy; <span id="year"></span> Astrology Project</p>
+        <small>Exploring the stars since ancient times ✨</small>
+        </div>
+          <div style="color: white;">
+          Contact us:
+          <a href="mailto:trivkovic.ai61.2023@uns.ac.rs" style="color: white; text-decoration: none;">trivkovic.ai61.2023@uns.ac.rs</a>
+          <a href="mailto:sovilj.ai46.2022@uns.ac.rs" style="color: white; text-decoration: none;">sovilj.ai46.2022@uns.ac.rs</a>
+          <a href="mailto:danilovic.ai24.2022@uns.ac.rs" style="color: white; text-decoration: none;">danilovic.ai24.2022@uns.ac.rs</a>
+        </div>
+
+      </div>
+  </div>
+</footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="assets/script.js"></script>
+
+
+
+
+</body>
+</html>
